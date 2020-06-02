@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorxd</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorblak">#FFFFFF</color>
+    <color name="colorface1">#F7F7F7</color>
+    <color name="colorface2">#DFE3EE</color>
+    <color name="colorface3">#8B9DC3</color>
+    <color name="colorface4">#3B5998</color>
+    <color name="blue">#3360ff</color>
+    <color name="vert">#43EC4A</color>
+    <color name="colordrak">#000000</color>
+    <color name="colorgree">#BDBCBC</color>
+    <color name="colorxd">#D719E7</color>
+</resources>

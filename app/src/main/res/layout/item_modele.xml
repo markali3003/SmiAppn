@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorface1"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textviewshape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_imageView_imagemodule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/id_textView_name_modele"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_vertical"
+                    android:text="nom modele"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    app:fontFamily="cursive"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Note Moyen :"
+                        app:fontFamily="casual" />
+
+                    <TextView
+                        android:id="@+id/id_textview_note"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/id_bu_noter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_edit_black_24dp"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+
+             <TextView
+                 android:id="@+id/textView11"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Language : Francais"
+                 app:fontFamily="casual" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="|"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+             <TextView
+                 android:id="@+id/id_text_dureenheure"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="5dp"
+                 android:textColor="@color/colordrak"
+                 android:textSize="18sp"></TextView>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="hrs"
+                 app:fontFamily="sans-serif-condensed-medium">
+
+             </TextView>
+         </LinearLayout>
+            </LinearLayout>
+
+
+        <Button
+            android:id="@+id/id_button_startnow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/annimationbutton"
+            android:text="Start now"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorblak"
+
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

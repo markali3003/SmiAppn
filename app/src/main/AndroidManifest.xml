@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smiapp">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Globalv"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_smiapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FavorableListeActivity" android:label="Liste De Favorie"/>
+        <activity android:name=".ShowCourActivity" android:label="ShowCour"/>
+        <activity android:name=".CoursActivity" android:label="Cours"/>
+        <activity
+            android:name=".ModelActivity"
+            android:theme="@style/smiapp"
+            android:label="Module"
+            />
+        <activity android:name=".RegistreActivity"  android:theme="@style/smiapp"/>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".WelcomeActivity" android:theme="@style/smiapp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:theme="@style/smiapp"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1421691947222656~7182045049" />
+
+    </application>
+
+</manifest>

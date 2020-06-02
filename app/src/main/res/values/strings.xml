@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SmiApp</string>
+    <string name="sujet">Je t’envoi ci-dessous le descriptif pour me faire un MCD de gestion des cours de la formation licence SMI de la FSDM.
+ Cette base de données va être ensuite implémentée dans une application mobile.
+ L’application permettra à un étudiant d’extraire les liens youtube pour un cours donné,
+ et la note et les avis des autres étudiants sur chaque vidéo lié au cours.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="adaptive_banner_ad_unit_id">ca-app-pub-1421691947222656/2675630301</string>
+
+
+</resources>

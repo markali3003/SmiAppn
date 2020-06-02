@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorface1"
+    tools:context=".CoursActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/id_number_cour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_3"
+        android:gravity="center"
+        android:text="number cours is :"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:fontFamily="@font/life_savers_bold"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
