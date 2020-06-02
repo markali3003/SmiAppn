@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void S6(View view) {
-        globalv.setSemestre("S6");
+        globalv.setSemestre(" S6");
         startActivity(new Intent(HomeActivity.this, ModelActivity.class));
     }
 
