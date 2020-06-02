@@ -84,9 +84,9 @@ public class ModelActivity extends AppCompatActivity {
         spinner = findViewById(R.id.spinner) ;
         strings = new ArrayList<>() ;
         strings.add(0,"Chose  Semestre") ;
-        strings.add(" S1 ") ;
-        strings.add(" S2 ") ;
-        strings.add(" S3  ") ;
+        strings.add("S1") ;
+        strings.add("S2") ;
+        strings.add("S3") ;
         strings.add("S4") ;
         strings.add("S5") ;
         strings.add("S6") ;
